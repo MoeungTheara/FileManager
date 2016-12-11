@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11535.1" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11523"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="keydownAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Tzn-Iz-aDi">
+                                <rect key="frame" x="-30" y="-15" width="444" height="751"/>
+                                <color key="backgroundColor" red="0.43205023621090877" green="0.86260349352940779" blue="0.92309695512820511" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EXd-Gz-kQo">
+                                <rect key="frame" x="31" y="340.66666666666669" width="348" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="HQX-9a-JCd"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="UserName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wks-W4-CCJ">
+                                <rect key="frame" x="35" y="279.66666666666669" width="344" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="3yo-WV-Lk2"/>
+                                </constraints>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSq-63-bMg">
+                                <rect key="frame" x="35" y="395.66666666666669" width="344" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Ej5-9l-dFI"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Login"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="EXd-Gz-kQo" secondAttribute="trailing" constant="15" id="1MO-an-glU"/>
+                            <constraint firstItem="Wks-W4-CCJ" firstAttribute="trailing" secondItem="EXd-Gz-kQo" secondAttribute="trailing" id="3DC-CI-QWd"/>
+                            <constraint firstItem="Tzn-Iz-aDi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-50" id="De9-ep-cUA"/>
+                            <constraint firstItem="EXd-Gz-kQo" firstAttribute="centerY" secondItem="Tzn-Iz-aDi" secondAttribute="centerY" id="EkU-rp-W2V"/>
+                            <constraint firstAttribute="trailing" secondItem="Tzn-Iz-aDi" secondAttribute="trailing" id="FNv-pv-yqv"/>
+                            <constraint firstItem="EXd-Gz-kQo" firstAttribute="top" secondItem="Wks-W4-CCJ" secondAttribute="bottom" constant="20" id="PkX-Ie-K5G"/>
+                            <constraint firstItem="EXd-Gz-kQo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="Rci-uY-kIj"/>
+                            <constraint firstItem="ZSq-63-bMg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="T3j-h7-CCw"/>
+                            <constraint firstItem="Tzn-Iz-aDi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-15" id="UCd-c9-NeT"/>
+                            <constraint firstItem="Wks-W4-CCJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="b8l-S0-PzP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZSq-63-bMg" secondAttribute="trailing" constant="15" id="nJK-St-nOu"/>
+                            <constraint firstItem="ZSq-63-bMg" firstAttribute="top" secondItem="EXd-Gz-kQo" secondAttribute="bottom" constant="14" id="ojc-y5-iLG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wks-W4-CCJ" secondAttribute="trailing" constant="15" id="qXW-bp-ago"/>
+                            <constraint firstItem="Tzn-Iz-aDi" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="r0R-hR-xwG"/>
+                            <constraint firstItem="Wks-W4-CCJ" firstAttribute="leading" secondItem="ZSq-63-bMg" secondAttribute="leading" id="w60-Tb-q95"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="904.79999999999995" y="87.706146926536732"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images.jpg" width="300" height="168"/>
+    </resources>
+</document>
