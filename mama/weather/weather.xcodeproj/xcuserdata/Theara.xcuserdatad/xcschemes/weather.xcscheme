@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2EFC6C31D911CBB00091524"
-               BuildableName = "mama.app"
-               BlueprintName = "mama"
-               ReferencedContainer = "container:mama.xcodeproj">
+               BlueprintIdentifier = "F20D2D631DC2498C00B35CA0"
+               BuildableName = "weather.app"
+               BlueprintName = "weather"
+               ReferencedContainer = "container:weather.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2EFC6C31D911CBB00091524"
-            BuildableName = "mama.app"
-            BlueprintName = "mama"
-            ReferencedContainer = "container:mama.xcodeproj">
+            BlueprintIdentifier = "F20D2D631DC2498C00B35CA0"
+            BuildableName = "weather.app"
+            BlueprintName = "weather"
+            ReferencedContainer = "container:weather.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2EFC6C31D911CBB00091524"
-            BuildableName = "mama.app"
-            BlueprintName = "mama"
-            ReferencedContainer = "container:mama.xcodeproj">
+            BlueprintIdentifier = "F20D2D631DC2498C00B35CA0"
+            BuildableName = "weather.app"
+            BlueprintName = "weather"
+            ReferencedContainer = "container:weather.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2EFC6C31D911CBB00091524"
-            BuildableName = "mama.app"
-            BlueprintName = "mama"
-            ReferencedContainer = "container:mama.xcodeproj">
+            BlueprintIdentifier = "F20D2D631DC2498C00B35CA0"
+            BuildableName = "weather.app"
+            BlueprintName = "weather"
+            ReferencedContainer = "container:weather.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

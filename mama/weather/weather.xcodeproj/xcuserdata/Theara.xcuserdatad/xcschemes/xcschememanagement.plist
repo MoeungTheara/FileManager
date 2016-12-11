@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>mama.xcscheme</key>
+		<key>weather.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F2EFC6C31D911CBB00091524</key>
+		<key>F20D2D631DC2498C00B35CA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
