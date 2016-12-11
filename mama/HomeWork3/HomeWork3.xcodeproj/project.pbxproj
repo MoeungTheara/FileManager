@@ -54,6 +54,8 @@
 		F27D8A1B1DFD1875003B1B60 /* HomeWork3 */ = {
 			isa = PBXGroup;
 			children = (
+				F27D8A701DFD2986003B1B60 /* Application */,
+				F27D8A711DFD2986003B1B60 /* View */,
 				F27D8A1C1DFD1875003B1B60 /* AppDelegate.swift */,
 				F27D8A1E1DFD1875003B1B60 /* ViewController.swift */,
 				F27D8A201DFD1875003B1B60 /* Main.storyboard */,
@@ -62,6 +64,20 @@
 				F27D8A281DFD1875003B1B60 /* Info.plist */,
 			);
 			path = HomeWork3;
+			sourceTree = "<group>";
+		};
+		F27D8A701DFD2986003B1B60 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F27D8A711DFD2986003B1B60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +315,7 @@
 				F27D8A2D1DFD1875003B1B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
